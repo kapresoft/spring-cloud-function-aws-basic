@@ -1,4 +1,8 @@
 # application config
 
+spring:
+  application:
+    name: "spring-cloud-function-aws-basic"
+
 spring.cloud.function:
   definition: "uppercase"
