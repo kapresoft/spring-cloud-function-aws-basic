@@ -6,3 +6,9 @@ spring:
 
 spring.cloud.function:
   definition: "uppercase"
+
+logging:
+    level:
+        root: info
+        '[com.kapresoft]': warn
+        '[org.springframework]': warn
